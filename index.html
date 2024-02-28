@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+    crossorigin="anonymous" />
+  <style>
+    .navbar-shadow {
+      box-shadow: 0 4px 24px #22292f1a;
+    }
+
+    .card-plan-shadow {
+      box-shadow: 0 4px 24px #22292f1a;
+    }
+
+    .img-trial {
+      tab-size: 4;
+      font-feature-settings: normal;
+      font-variation-settings: normal;
+      letter-spacing: .01rem;
+      --bs-blue: #00cfe8;
+      --bs-indigo: #6610f2;
+      --bs-purple: #7367f0;
+      --bs-pink: #d63384;
+      --bs-red: #ea5455;
+      --bs-orange: #ff9f43;
+      --bs-yellow: #ffc107;
+      --bs-green: #28c76f;
+      --bs-teal: #20c997;
+      --bs-cyan: #0dcaf0;
+      --bs-white: #fff;
+      --bs-gray: #b8c2cc;
+      --bs-gray-dark: #1e1e1e;
+      --bs-gray-100: #babfc7;
+      --bs-gray-200: #ededed;
+      --bs-gray-300: #dae1e7;
+      --bs-gray-400: #636363;
+      --bs-gray-500: #adb5bd;
+      --bs-gray-600: #b8c2cc;
+      --bs-gray-700: #4e5154;
+      --bs-gray-800: #1e1e1e;
+      --bs-gray-900: #2a2e30;
+      --bs-primary: #4261ee;
+      --bs-secondary: #82868b;
+      --bs-success: #28c76f;
+      --bs-info: #00cfe8;
+      --bs-warning: #ff9f43;
+      --bs-danger: #ea5455;
+      --bs-light: #f6f6f6;
+      --bs-dark: #4b4b4b;
+      --bs-primary-rgb: 66, 98, 238;
+      --bs-secondary-rgb: 130, 134, 139;
+      --bs-success-rgb: 40, 199, 111;
+      --bs-info-rgb: 0, 207, 232;
+      --bs-warning-rgb: 255, 159, 67;
+      --bs-danger-rgb: 234, 84, 85;
+      --bs-light-rgb: 246, 246, 246;
+      --bs-dark-rgb: 75, 75, 75;
+      --bs-white-rgb: 255, 255, 255;
+      --bs-black-rgb: 34, 41, 47;
+      --bs-body-color-rgb: 110, 107, 123;
+      --bs-body-bg-rgb: 248, 248, 248;
+      --bs-font-sans-serif: "Montserrat", Helvetica, Arial, serif;
+      --bs-font-monospace: "Montserrat", Helvetica, Arial, serif;
+      --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, .15), rgba(255, 255, 255, 0));
+      --bs-body-font-family: var(--bs-font-sans-serif);
+      --bs-body-font-size: 1rem;
+      --bs-body-font-weight: 400;
+      --bs-body-line-height: 1.45;
+      --bs-body-color: #6e6b7b;
+      --bs-body-bg: #f8f8f8;
+      font-size: var(--bs-body-font-size);
+      font-weight: var(--bs-body-font-weight);
+      line-height: var(--bs-body-line-height);
+      color: var(--bs-body-color);
+      text-align: var(--bs-body-text-align);
+      -webkit-text-size-adjust: 100%;
+      -webkit-tap-highlight-color: rgba(34, 41, 47, 0);
+      direction: ltr;
+      --tw-bg-opacity: 1;
+      --bs-bg-opacity: 1;
+      --tw-space-y-reverse: 0;
+      --bs-gutter-x: 2rem;
+      --bs-gutter-y: 0;
+      border-width: 0;
+      border-style: solid;
+      border-color: currentColor;
+      font-family: UberMove;
+      --tw-border-spacing-x: 0;
+      --tw-border-spacing-y: 0;
+      --tw-translate-x: 0;
+      --tw-translate-y: 0;
+      --tw-rotate: 0;
+      --tw-skew-x: 0;
+      --tw-skew-y: 0;
+      --tw-scale-x: 1;
+      --tw-scale-y: 1;
+      --tw-pan-x: ;
+      --tw-pan-y: ;
+      --tw-pinch-zoom: ;
+      --tw-scroll-snap-strictness: proximity;
+      --tw-gradient-from-position: ;
+      --tw-gradient-via-position: ;
+      --tw-gradient-to-position: ;
+      --tw-ordinal: ;
+      --tw-slashed-zero: ;
+      --tw-numeric-figure: ;
+      --tw-numeric-spacing: ;
+      --tw-numeric-fraction: ;
+      --tw-ring-inset: ;
+      --tw-ring-offset-width: 0px;
+      --tw-ring-offset-color: #fff;
+      --tw-ring-color: rgb(59 130 246 / .5);
+      --tw-ring-offset-shadow: 0 0 #0000;
+      --tw-ring-shadow: 0 0 #0000;
+      --tw-shadow: 0 0 #0000;
+      --tw-shadow-colored: 0 0 #0000;
+      --tw-blur: ;
+      --tw-brightness: ;
+      --tw-contrast: ;
+      --tw-grayscale: ;
+      --tw-hue-rotate: ;
+      --tw-invert: ;
+      --tw-saturate: ;
+      --tw-sepia: ;
+      --tw-drop-shadow: ;
+      --tw-backdrop-blur: ;
+      --tw-backdrop-brightness: ;
+      --tw-backdrop-contrast: ;
+      --tw-backdrop-grayscale: ;
+      --tw-backdrop-hue-rotate: ;
+      --tw-backdrop-invert: ;
+      --tw-backdrop-opacity: ;
+      --tw-backdrop-saturate: ;
+      --tw-backdrop-sepia: ;
+      box-sizing: border-box;
+      display: block;
+      vertical-align: middle;
+      margin-top: 0 !important;
+      max-width: 100%;
+      height: auto;
+      position: relative;
+      top: -3.1rem;
+    }
+  </style>
+
+  <title>Preços - Fusion Metrics</title>
+</head>
+
+<body>
+  <nav class="bg-slate-50 navbar-shadow">
+    <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+      <div class="relative flex h-16 items-center justify-between">
+        <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+          <!-- Mobile menu button-->
+          <button type="button"
+            class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+            aria-controls="mobile-menu" aria-expanded="false">
+
+            <span class="absolute -inset-0.5"></span>
+            <span class="sr-only">Open main menu</span>
+            <!--
+              Icon when menu is closed.
+  
+              Menu open: "hidden", Menu closed: "block"
+            -->
+            <svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+              aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+            <!--
+              Icon when menu is open.
+  
+              Menu open: "block", Menu closed: "hidden"
+            -->
+            <svg class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+              aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+        <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+          <div class="flex flex-shrink-0 items-center">
+            <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
+              alt="Your Company">
+          </div>
+          <div class="hidden sm:ml-6 sm:block">
+            <div class="flex space-x-4">
+              <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+              <a href="#" class="bg-gray-100 text-gray-500 rounded-md px-3 py-2 text-sm font-medium" `
+                aria-current="page">Preços</a>
+              <!-- <a href="#"
+                class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Team</a>
+              <a href="#"
+                class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Projects</a>
+              <a href="#"
+                class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Calendar</a> -->
+            </div>
+          </div>
+        </div>
+        <!-- <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+          <button type="button"
+            class="relative rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
+            <span class="absolute -inset-1.5"></span>
+            <span class="sr-only">View notifications</span>
+            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+              aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M14.857 17.082a23.848 23.848 0 005.454-1.31A8.967 8.967 0 0118 9.75v-.7V9A6 6 0 006 9v.75a8.967 8.967 0 01-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 01-5.714 0m5.714 0a3 3 0 11-5.714 0" />
+            </svg>
+          </button>
+
+         
+          </div> -->
+      </div>
+    </div>
+    </div>
+
+    <!-- Mobile menu, show/hide based on menu state. -->
+    <div class="sm:hidden" id="mobile-menu">
+      <div class="space-y-1 px-2 pb-3 pt-2">
+        <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+        <a href="#" class="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium"
+          aria-current="page">Preços</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="my-10 px-3 text-center">
+    <h1 class="text-3xl text-slate-600">Quatro opções para aumentar suas vendas</h1>
+    <p class="font-light text-slate-400 mt-1">Todos os planos incluem rastreio das vendas em tempo real. Escolha o plano
+      que é melhor para você!</p>
+  </header>
+
+  <main>
+    <div class="flex flex-row flex-wrap gap-10 justify-center px-3">
+
+      <div class="rounded-md card-plan-shadow p-5 flex flex-col items-center">
+        <span class="text-2xl font-bold text-slate-600">Gratuito</span>
+        <p class="text-sm text-slate-400 mt-1 text-center max-w-68">Recomendado para quem está começando agora.</p>
+
+        <p class="my-4 text-slate-650 font-medium">
+          <span class="text-2xl font-bold text-blue-600 m-0">R$ 0,00</span>
+          /mês
+        </p>
+
+        <div class="checklist self-start">
+          <ul class="text-slate-400 gap-2">
+            <li class="my-2">✅ 100% Gratuito</li>
+            <li class="my-2">✅ Até 50 Vendas Aprovadas /mês</li>
+            <li class="my-2">✅ 1 Conta de Anúncio</li>
+            <li class="my-2">✅ 1 Webhook</li>
+            <li class="my-2">✅ 1 Dashboard</li>
+            <li class="my-2">❌ Regras Programadas</li>
+            <li class="my-2">❌ Suporte VIP</li>
+          </ul>
+        </div>
+
+        <a
+          class="py-2 px-4 mt-6 border border-green-400 rounded-md w-full text-center font-medium text-green-500 hover:bg-green-100 cursor-pointer ease-linear">Escolher
+          Plano</a>
+
+        <span class="mt-4 text-xs text-slate-400">* Sem cobranças adicionais</span>
+      </div>
+
+      <div class="rounded-md card-plan-shadow p-5 flex flex-col items-center">
+        <span class="text-2xl font-bold text-slate-600">Premium</span>
+        <p class="text-sm text-slate-400 mt-1 text-center max-w-68">Recomendado para quem está começando agora.</p>
+
+        <p class="my-4 text-slate-650 font-medium">
+          <span class="text-2xl font-bold text-blue-600 m-0">R$ 99,90</span>
+          /mês
+        </p>
+
+        <div class="checklist self-start">
+          <ul class="text-slate-400 gap-2">
+            <li class="my-2">✅ 100% Gratuito</li>
+            <li class="my-2">✅ Até 50 Vendas Aprovadas /mês</li>
+            <li class="my-2">✅ 1 Conta de Anúncio</li>
+            <li class="my-2">✅ 1 Webhook</li>
+            <li class="my-2">✅ 1 Dashboard</li>
+            <li class="my-2">❌ Regras Programadas</li>
+            <li class="my-2">❌ Suporte VIP</li>
+          </ul>
+        </div>
+
+        <a
+          class="py-2 px-4 mt-6 rounded-md w-full text-center font-medium bg-blue-700 text-white hover:shadow-md hover:shadow-blue-800 cursor-pointer ease-linear">Escolher
+          Plano</a>
+
+        <span class="mt-4 text-xs text-slate-400">* Sem cobranças adicionais</span>
+      </div>
+
+      <div class="rounded-md card-plan-shadow p-5 flex flex-col items-center">
+        <span class="text-2xl font-bold text-slate-600">Avançado</span>
+        <p class="text-sm text-slate-400 mt-1 text-center max-w-68">Recomendado para quem está começando agora.</p>
+
+        <p class="my-4 text-slate-650 font-medium">
+          <span class="text-2xl font-bold text-blue-600 m-0">R$ 199,90</span>
+          /mês
+        </p>
+
+        <div class="checklist self-start">
+          <ul class="text-slate-400 gap-2">
+            <li class="my-2">✅ 100% Gratuito</li>
+            <li class="my-2">✅ Até 50 Vendas Aprovadas /mês</li>
+            <li class="my-2">✅ 1 Conta de Anúncio</li>
+            <li class="my-2">✅ 1 Webhook</li>
+            <li class="my-2">✅ 1 Dashboard</li>
+            <li class="my-2">❌ Regras Programadas</li>
+            <li class="my-2">❌ Suporte VIP</li>
+          </ul>
+        </div>
+
+        <a
+          class="py-2 px-4 mt-6 rounded-md w-full text-center font-medium bg-blue-700 text-white hover:shadow-md hover:shadow-blue-800 cursor-pointer ease-linear">Escolher
+          Plano</a>
+
+        <span class="mt-4 text-xs text-slate-400">* Sem cobranças adicionais</span>
+      </div>
+
+    </div>
+
+    <div class="my-16">
+      <div class="bg-gray-100 flex justify-center items-center py-3 px-10 h-[278px]">
+        <div class="h-full flex flex-col justify-center md:pr-20">
+          <h3 class="text-2xl text-blue-600">Ainda na dúvida? Você tem 7 dias de garantia!</h3>
+          <p class="text-slate-400 text-md pr-20 my-2">Se não estiver satisfeito com a plataforma você pode pedir
+            reembolso em até 7 dias.</p>
+
+          <a
+            class="py-2 px-4 mt-6 rounded-md w-40 text-center font-medium bg-blue-700 text-white hover:shadow-md hover:shadow-blue-800 cursor-pointer ease-linear">Escolher
+            Plano</a>
+        </div>
+        <div class="self-start hidden lg:block">
+          <img src="/assets/img/free-trial-fusionmetrics.svg" class="mt-[-50px] w-[368px]" alt="svg img">
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center mb-10 flex flex-col items-center">
+      <h3 class="text-3xl text-slate-600">Ficou com alguma dúvida?</h3>
+      <p class="font-light text-slate-400 mt-1">Dê uma olhada nas perguntas mais frequentes abaixo:
+      </p>
+
+      <div class="max-w-3xl w-full mx-auto mt-8 space-y-4 md:mt-16">
+        <div
+          class="transition-all duration-200 bg-white border border-gray-200 shadow-lg cursor-pointer hover:bg-gray-50">
+          <button type="button" id="question1" data-state="closed"
+            class="flex items-center justify-between w-full px-4 py-5 sm:p-6">
+            <span class="flex text-lg font-semibold text-black">Quais plataformas estão disponíveis para
+              integração?</span>
+            <svg id="arrow1" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+              class="w-6 h-6 text-gray-400">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </button>
+          <div id="answer1" style="display:none" class="px-4 pb-5 sm:px-6 sm:pb-6">
+            <p>Atualmente oferecemos integração com o Meta Ads, Kiwify, IExperience, PerfectPay, Doppus, Hotmart, Eduzz,
+              Kirvano, Vega, Pepper, Ticto e Monetizze.
+
+              Em breve teremos Yampi, Evermart, Payt, Guru, Cartpanda, Braip, OctusPay e Appmax.
+
+              Se precisar de outra específica, entre em contato conosco para que possamos priorizar a integração dessa
+              plataforma.</p>
+          </div>
+        </div>
+        <div
+          class="transition-all duration-200 bg-white border border-gray-200 shadow-lg cursor-pointer hover:bg-gray-50">
+          <button type="button" id="question2" data-state="closed"
+            class="flex items-center justify-between w-full px-4 py-5 sm:p-6">
+            <span class="flex text-lg font-semibold text-black">Vendas recusadas ou reembolsadas também consomem
+              limite?</span>
+            <svg id="arrow2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+              class="w-6 h-6 text-gray-400">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </button>
+          <div id="answer2" style="display:none" class="px-4 pb-5 sm:px-6 sm:pb-6">
+            <p>Não. Se uma venda for recusada, reembolsada ou sofrer chargeback no período de cobrança, ela não será
+              contabilizada no limite de vendas do seu plano. Contamos apenas as vendas aprovadas.</p>
+          </div>
+        </div>
+        <div
+          class="transition-all duration-200 bg-white border border-gray-200 shadow-lg cursor-pointer hover:bg-gray-50">
+          <button type="button" id="question3" data-state="closed"
+            class="flex items-center justify-between w-full px-4 py-5 sm:p-6">
+            <span class="flex text-lg font-semibold text-black">É muito difícil configurar a integração?</span>
+            <svg id="arrow3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+              class="w-6 h-6 text-gray-400">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </button>
+          <div id="answer3" style="display:none" class="px-4 pb-5 sm:px-6 sm:pb-6">
+            <p>Não, é muito fácil! O processo de integração foi projetado para ser extremamente simples e fácil. Basta
+              seguir o passo a passo disponibilzado que você irá terminar em menos de 5 minutos.
+
+            </p>
+          </div>
+        </div>
+        <div
+          class="transition-all duration-200 bg-white border border-gray-200 shadow-lg cursor-pointer hover:bg-gray-50">
+          <button type="button" id="question4" data-state="closed"
+            class="flex items-center justify-between w-full px-4 py-5 sm:p-6">
+            <span class="flex text-lg font-semibold text-black">E se um dia eu não precisar mais da plataforma?</span>
+            <svg id="arrow4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+              class="w-6 h-6 text-gray-400">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </button>
+          <div id="answer4" style="display:none" class="px-4 pb-5 sm:px-6 sm:pb-6">
+            <p>Sem problemas! Se um dia nossa plataforma não fizer mais sentido para a sua situação, você pode cancelar
+              a qualquer momento, sem multas ou taxas adicionais.</p>
+          </div>
+        </div>
+        <div
+          class="transition-all duration-200 bg-white border border-gray-200 shadow-lg cursor-pointer hover:bg-gray-50">
+          <button type="button" id="question5" data-state="closed"
+            class="flex items-center justify-between w-full px-4 py-5 sm:p-6">
+            <span class="flex text-lg font-semibold text-black">A plataforma terá acesso aos meus criativos?</span>
+            <svg id="arrow4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+              class="w-6 h-6 text-gray-400">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </button>
+          <div id="answer5" style="display:none" class="px-4 pb-5 sm:px-6 sm:pb-6">
+            <p>Não. A plataforma não usa os criativos para nada, apenas os dados de identificação da campanha
+              necessários para rastrear as vendas. Pode ficar tranquilo que seus criativos estão seguros.
+
+            </p>
+          </div>
+        </div>
+        <div
+          class="transition-all duration-200 bg-white border border-gray-200 shadow-lg cursor-pointer hover:bg-gray-50">
+          <button type="button" id="question6" data-state="closed"
+            class="flex items-center justify-between w-full px-4 py-5 sm:p-6">
+            <span class="flex text-lg font-semibold text-black">Não encontrei minha dúvida aqui, o que fazer?</span>
+            <svg id="arrow4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+              class="w-6 h-6 text-gray-400">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </button>
+          <div id="answer6" style="display:none" class="px-4 pb-5 sm:px-6 sm:pb-6">
+            <p>Sem problemas, estamos aqui para te ajudar! Entre em contato conosco pelo WhatsApp (24) 99310-5374 e
+              iremos te ajudar com qualquer dúvida que você tenha.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <script>
+      // JavaScript to toggle the answers and rotate the arrows
+      document.querySelectorAll('[id^="question"]').forEach(function (button, index) {
+        button.addEventListener('click', function () {
+          var answer = document.getElementById('answer' + (index + 1));
+          var arrow = document.getElementById('arrow' + (index + 1));
+
+          if (answer.style.display === 'none' || answer.style.display === '') {
+            answer.style.display = 'block';
+            arrow.style.transform = 'rotate(0deg)';
+          } else {
+            answer.style.display = 'none';
+            arrow.style.transform = 'rotate(-180deg)';
+          }
+        });
+      });
+    </script>
+
+    </div>
+  </main>
+
+  <footer class="w-full bg-slate-800 px-20 py-10 text-center">
+    <h4 class="text-white">Fusion Metrics</h4>
+    <span class="float-md-start d-block d-md-inline-block mt-2 lg:!mt-0 space-x-1 text-slate-400"><span>© 2024</span>
+      <span>Fusion Metrics</span> <span>|</span> <span>Todos os direitos reservados</span></span>
+  </footer>
+
+</body>
+
+</html>
